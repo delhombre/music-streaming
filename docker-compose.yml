@@ -3,7 +3,7 @@ services:
   php:
     build:
       context: ./tools/docker/php
-    container_name: streaming-project-php
+    container_name: music-streaming-php
     volumes:
       - .:/var/www:delegated
       - "~/.gitconfig:/etc/gitconfig"
